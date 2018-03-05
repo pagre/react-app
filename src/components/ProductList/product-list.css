@@ -1,0 +1,1 @@
+.product-item p,.product-list{overflow:hidden}.product-item{float:left;width:50%;padding:.2rem}.product-item img{width:3.35rem;height:3.35rem}.product-item p{text-overflow:ellipsis;white-space:nowrap;line-height:2;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}

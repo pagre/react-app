@@ -1,0 +1,61 @@
+body{background: #fff}
+.index_mainswiper .swiper-container{width: 100%;height: 232px;background: #ccc}
+.index_mainswiper .swiper-container img{width: 100%;height:100%;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%)}
+.nav{width: 100%;height: 88px;}
+.nav ul {display: flex;justify-content: space-around}
+.nav ul li{width: 20%;height: 88px;display: flex;flex-direction: column;justify-content: center;align-items: center;
+border-right: 1px solid #ccc;border-bottom: 1px solid #ccc}
+.nav ul li:last-child{border-right: 0}
+.nav ul li a{font-size: 16px;color: #666}
+.nav ul li span{font-size: 12px;color: #ccc;padding-top: 10px}
+
+.index_custom{width: 100%;height: 338px;margin-top: 10px}
+.index_pubTit{width: 100%;height: 90px;padding: 20px 0;background: #ccf}
+.index_pubTit{display: flex;justify-content: center;flex-direction: column}
+.index_pubTit p{text-align: center;color: #000}
+.index_pubTit p:nth-child(1){font-size: 18px;}
+.index_pubTit p:nth-child(2){font-size: 12px;line-height: 1.6;}
+
+.index_custom .index_custom_m li{width: 50%;float: left}
+.index_custom .index_custom_m li img{width: 100%;height: 100%}
+.index_custom .index_custom_m li:first-child{height: 248px;}
+.index_custom .index_custom_m li:nth-child(2){height: 124px;}
+.index_custom .index_custom_m li:nth-child(3){height: 124px;}
+
+
+.index_product{width: 100%;height: 296px;margin-top: 10px}
+.index_product .index_pubTit{width: 100%;height: 90px;padding: 20px 0}
+.index_banner{width: 100%;height: 296px;margin-top: 10px}
+.index_banner .index_pubTit{width: 100%;height: 90px;padding: 20px 0}
+
+
+.index_product .swiper-container{width: 100%;height: 206px;padding: 10px}
+#home-page .index_product .swiper-container .swiper-slide{width: 124px!;height: 185px; background-size: cover;margin-right:30px;overflow: auto;}
+.index_product .swiper-container img{width: 100%;height:150px;}
+.index_product .swiper-container p{font-size: 12px;color: #666;text-align: center;line-height: 1.2}
+
+.index_banner .index_bannerimg{width:100%;height: 206px}
+.index_banner img{width: 100%;height: 100%;}
+
+.mzineSlider .swiper-container{width: 100%;height: 174px;padding: 10px;}
+#home-page .mzineSlider .swiper-container .swiper-slide{width: 105px;height: 154px;margin-right:30px;}
+.mzineSlider .swiper-container .swiper-slide img{width: 100%;height: 126px;}
+.mzineSlider .swiper-container .swiper-slide p{font-size: 14px;color: #666;text-align: center;line-height: 28px}
+
+.indexFirstList{width: 100%;}
+.indexFirstList ul li{width: 100%;height: 288px;}
+.indexFirstList ul li a{display: block;width: 100%;height: 232px}
+.indexFirstList ul li img{width: 100%;height: 232px;}
+.indexFirstList ul li p{text-align: center;line-height: 28px;color: #666}
+.indexFirstList ul li p:nth-of-type(1){font-size: 16px;}
+.indexFirstList ul li p:nth-of-type(2){font-size: 18px;}
+
+.indexSecondList{width: 100%;}
+.indexSecondList ul{width: 100%}
+.indexSecondList ul li{width: 50%;border: 1px solid #ccc;height: 273px;float: left}
+.indexSecondList ul li img{width: 100%;height: 218px;}
+.indexSecondList ul li p{font-size: 16px;color: #666;line-height: 22px;text-align: center;}
+
+
+
+

@@ -1,0 +1,55 @@
+#detail-page .prodetail{width: 100%;padding-top: 30px;}
+.prodetail .swiper-container{width: 100%;height: 405px;position: relative}
+.prodetail .swiper-container .swiper-wrapper{width: 100%;height: 365px;}
+.prodetail .swiper-container .swiper-wrapper .swiper-slide{width: 100%;height: 365px;position: relative}
+.prodetail .swiper-container .swiper-wrapper .swiper-slide img{width: 70%;height: 88%;position: absolute;top: 0;left: 50%;transform: translateX(-50%)}
+
+.prodetailInfo{width: 100%;height: 116px;box-sizing: border-box;padding: 20px;border: 2px solid #ccc;border-right:0;border-left: 0}
+.prodetailInfo .prodetailName{font-size: 16px;}
+.prodetailInfo .prodetailName p:nth-of-type(1){height: 34px;padding-top: 6px;}
+.prodetailInfo .prodetailName p:nth-of-type(1) span:first-child{width: 23px;height: 21px;border: 1px solid #868686;font-size: 14px;color:#666}
+.prodetailInfo .prodetailName p:nth-of-type(1) span:nth-child(2){margin-left: 5px;color: #333}
+.prodetailInfo .prodetailName p:nth-of-type(2){height: 20px;font-size: 12px;color: #333;}
+
+
+.prodetailInfo .prodetailPrice{font-size: 12px;height: 22px;display: flex;align-items: center;justify-content: space-between;}
+.prodetailInfo .prodetailPrice span:nth-child(1){font-size: 16px;color: #e8203b}
+.prodetailInfo .prodetailPrice span:nth-child(2){width: 52px;}
+.prodetailInfo .prodetailPrice span:nth-child(2) i:first-child{color: #e8203b;margin-right: 6px;}
+.prodetailInfo .prodetailPrice span:nth-child(2) i:nth-child(2){color: #999;}
+
+.proColorSize{width: 100%;font-size: 16px;box-sizing: border-box;padding: 0 20px;border-bottom: 2px solid #ccc}
+.proColorSize .proColor{width: 100%;}
+.proColorSize .proColor .proColorName{color: #666;line-height:40px;}
+.proColorSize .proColor .proColorValue{width: 100%;display: block;display: flex;flex: 1;flex-wrap: wrap}
+.proColorSize .proColor .proColorValue span{border:1px solid #ccc;color:#666;border-radius: 5px;width: 40px;display: block;height:30px;text-align:center;line-height:30px;margin: 10px 10px 10px 0;}
+.proColorSize .spanbtnactive{background: black}
+.proColorSize .spanbtn{background: none}
+
+.proColorSize .proSize{width: 100%;}
+.proColorSize .proSize .proSizeName{color: #666;line-height:40px;}
+.proColorSize .proSize .proSizeValue{width: 100%;display: block;display: flex;flex: 1;flex-wrap: wrap}
+.proColorSize .proSize .proSizeValue span{border:1px solid #ccc;color:#666;border-radius: 5px;width: 40px;display: block;height:30px;text-align:center;line-height:30px;margin: 10px 10px 10px 0;}
+
+.proinfotit{width: 100%;height: 42px;box-sizing: border-box;padding: 0 20px;line-height: 42px;font-size: 16px;border-bottom: 1px solid #ccc}
+.detail-info{width: 100%;border-bottom: 2px solid #ccc}
+.detail-info .proinfoData{font-size:14px;color: #666;box-sizing: border-box;padding: 0 20px;}
+.detail-info .proinfoData li{height: 27px;line-height: 27px;}
+
+.detail-prointro .intro-img{box-sizing: border-box;padding: 0 20px;border-bottom: 2px solid #ccc}
+.detail-prointro .intro-img img{width:100%;height:380px;}
+
+.detail-probrand{width: 100%;border-bottom: 2px solid #ccc;margin-bottom: 46px;}
+.detail-probrand .probrand img{width: 100%;height: 208px;}
+.detail-probrand .probrand p{font-size: 10px;padding: 5px 15px 10px 15px;color: #666}
+
+.detailFooter{width: 100%;height:46px;position: fixed;bottom: 0;background: #fff}
+.detailFooter .detailfooter-left{float:left;width: 48%;height: 46px;display: flex;justify-content: space-between;align-items: center;}
+.detailFooter .detailfooter-left div{width:33%;height: 40px;border-right: 1px solid #ccc;}
+.detailFooter .detailfooter-left div:nth-child(3){border-right: 0}
+.detailFooter .detailfooter-left div i{font-size: 22px;display: block;line-height: 46px;text-align: center}
+.detailFooter .detailfooter-right{width:52%;height: 46px;float: right;}
+
+.detailFooter .detailfooter-right button{border:0;outline: none;float:left;width: 50%;font-size: 14px;text-align: center;line-height: 46px;height: 46px;color: #fff;font-weight: 600}
+.detailFooter .detailfooter-right .addcart{background: #333}
+.detailFooter .detailfooter-right .rightbuy{background: red}
